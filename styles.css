@@ -1,0 +1,68 @@
+body{
+	background-image: url("https://upload.wikimedia.org/wikipedia/en/thumb/b/bb/Graduated_Blue_Background.png/700px-Graduated_Blue_Background.png");
+	background-size: cover;
+	font-family: monospace;
+}
+
+#prevpic{
+	height: 200px;
+	width: 200px;
+}
+
+.error {
+color: red;
+}
+
+.sidenav {
+height: 100%;
+width: 20%;
+position: fixed;
+z-index: 1;
+top: 0;
+left: 0;
+background-color: #c0d8f0;
+overflow-x: hidden;
+padding-top: 20px;
+}
+
+.sidenav a {
+padding: 6px 0px 6px 0px;
+text-decoration: none;
+font-size: 25px;
+color: black;
+text-align: center;
+display: block;
+}
+
+.sidenav a #profpic{
+	height: 200px;
+	width: 195px;
+}
+
+.sidenav #button{
+	width: 90%;
+	margin-left: 5%;
+	margin-top: 50px;		
+}
+
+.main {
+  margin-left: 20%; /* Same as the width of the sidenav */
+}
+
+#postcard /* Style for the post card */ 
+{
+	background-color: white;
+	margin: 10px 30px 10px 30px;
+	padding: 20px 10px 20px 10px;
+}
+
+.jumbotron {
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+  margin: 10px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
